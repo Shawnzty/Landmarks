@@ -15,6 +15,7 @@
 		0536621B285D7FF200131B09 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536621A285D7FF200131B09 /* MapView.swift */; };
 		0536621D285E3BB000131B09 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0536621C285E3BB000131B09 /* landmarkData.json */; };
 		0536621F285E3C5600131B09 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536621E285E3C5600131B09 /* Landmark.swift */; };
+		05A06635288310D600BA6500 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A06634288310D600BA6500 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0536621A285D7FF200131B09 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0536621C285E3BB000131B09 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		0536621E285E3C5600131B09 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		05A06634288310D600BA6500 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		053661FE285D6E3C00131B09 = {
 			isa = PBXGroup;
 			children = (
+				05A06634288310D600BA6500 /* ModelData.swift */,
 				05366209285D6E3C00131B09 /* Landmarks */,
 				05366208285D6E3C00131B09 /* Products */,
 			);
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0536620D285D6E3C00131B09 /* ContentView.swift in Sources */,
+				05A06635288310D600BA6500 /* ModelData.swift in Sources */,
 				0536621B285D7FF200131B09 /* MapView.swift in Sources */,
 				0536620B285D6E3C00131B09 /* LandmarksApp.swift in Sources */,
 				05366219285D7E6F00131B09 /* CircleImage.swift in Sources */,
